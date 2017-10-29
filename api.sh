@@ -5,7 +5,7 @@ curl -i -X POST \
   --url http://localhost:8001/apis/ \
   --data 'name=mockbin' \
   --data 'upstream_url=http://mockbin.org/request' \
-  --data 'uris=/'
+  --data 'uris=/' \
   --data 'methods=POST'
 
 echo -e "\n"
